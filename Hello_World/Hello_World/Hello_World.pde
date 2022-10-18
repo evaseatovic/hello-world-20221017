@@ -15,5 +15,5 @@ if ( appWidth==0 || appHeight==0 )println("STOP, is broken");
 if ( appWidth!=0 || appHeight!=0 )println("Display: Good to Go");
 //
 //Outputting instructions to user when errors with above
-//bru, turn your phum
+//Bru, turn your phum
 //
