@@ -6,8 +6,8 @@
 size(700, 400); //Able to deploy with fullscreen();
 //
 //concatination
-println("width =",width,"height =",height);
-println(displayWidth, displayHeight);
+println("Width =",width,"tHeight =",height);
+println("display monitor:", "width:", displayWidth, "height:", displayHeight);
 //
 //Outputting instructions to user when errors with above
 //bru, turn your phum
