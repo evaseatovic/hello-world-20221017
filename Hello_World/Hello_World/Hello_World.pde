@@ -1,5 +1,5 @@
 //Global Variables
-int appWidth=1;
+int appWidth=1, appHeight=1;
 //
 //Declaring Display Geometry: landscape, square, portrait
 size(700, 400); //Able to deploy with fullscreen();
