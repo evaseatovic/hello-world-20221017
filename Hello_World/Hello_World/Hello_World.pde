@@ -11,8 +11,8 @@ println("\t\t\tWidth="+width, "tHeight ="+height);
 println("display monitor:", "twidth:"+displayWidth, "\theight:"+displayHeight);
 //
 //Fitting CANVAS into Monitor Display
-if ( width > displayWidth ) appWidth=0; //CANVAS-width will not fit
-if ( height > displayHeight ) appHeight=0; //CANVAS-width will not fit
+if ( appWidth > displayWidth ) appWidth=0; //CANVAS-width will not fit
+if ( appHeight > displayHeight ) appHeight=0; //CANVAS-width will not fit
 if ( appWidth==0 || appHeight==0 )println("STOP, is broken");
 if ( appWidth!=0 || appHeight!=0 )println("Display: Good to Go");
 //
