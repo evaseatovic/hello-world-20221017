@@ -5,7 +5,7 @@ int appWidth=1;
 size(700, 400); //Able to deploy with fullscreen();
 //
 //concatination: , or + (i.e space)
-println("\t\t\tWidth="+width,"tHeight =",height);
+println("\t\t\tWidth="+width+"tHeight =",height);
 println("display monitor:", "twidth:"+displayWidth, "\theight:"+displayHeight);
 //
 //Fitting CANVAS into Monitor Display
