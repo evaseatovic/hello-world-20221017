@@ -1,8 +1,10 @@
 //Global Variables
-int appWidth=1, appHeight=1;
+int appWidth, appHeight;
 //
 //Declaring Display Geometry: landscape, square, portrait
 size(700, 400); //Able to deploy with fullscreen();
+appWidth = width;
+appHeight = height;
 //
 //concatination: , or + (i.e space)
 println("\t\t\tWidth="+width, "tHeight ="+height);
