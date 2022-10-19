@@ -1,6 +1,12 @@
+
+void draw () {} //End draw
+void keyPressed () {} //End keyPressed
+void mousePressed () {} //End mousePressed
+
 //Global Variables
 int appWidth, appHeight;
 //
+void setup() {} //End setup
 //Declaring Display Geometry: landscape, square, portrait
 size(600, 700); //Able to deploy with fullscreen();
 appWidth = width;
