@@ -4,10 +4,10 @@ int appWidth, appHeight;
 //
 void setup() {
 //Declaring Display Geometry: landscape, square, portrait
-size(600, 700); //Able to deploy with fullscreen();
+size(400, 700); //Able to deploy with fullscreen();
+//fullscreen();
 appWidth = width;
 appHeight = height;
-//
 //concatination: , or + (i.e space)
 println("\t\t\tWidth="+width, "tHeight ="+height);
 println("display monitor:", "twidth:"+displayWidth, "\theight:"+displayHeight);
