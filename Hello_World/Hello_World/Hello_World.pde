@@ -1,12 +1,9 @@
 
-void draw () {} //End draw
-void keyPressed () {} //End keyPressed
-void mousePressed () {} //End mousePressed
 
 //Global Variables
 int appWidth, appHeight;
 //
-void setup() {} //End setup
+void setup() {
 //Declaring Display Geometry: landscape, square, portrait
 size(600, 700); //Able to deploy with fullscreen();
 appWidth = width;
@@ -29,3 +26,11 @@ string orientation = ( appWidth >= appHeight ) ? ls : p ;
 println(DO, orientation);
 if (orientation == p)  print(instruct); //Later, output to CANVAS
 //
+} //End setup
+void draw () {} //End draw
+//
+void keyPressed () {} //End keyPressed
+//
+void mousePressed () {} //End mousePressed
+//
+// end main program
