@@ -1,5 +1,4 @@
 
-
 //Global Variables
 int appWidth, appHeight;
 //
@@ -16,7 +15,7 @@ println("display monitor:", "twidth:"+displayWidth, "\theight:"+displayHeight);
 //Fitting CANVAS into Monitor Display
 if ( appWidth > displayWidth ) appWidth=0; //CANVAS-width will not fit
 if ( appHeight > displayHeight ) appHeight=0; //CANVAS-width will not fit
-
+//
 //Outputting instructions to user when errors with above
 if ( appWidth==0 || appHeight==0 )println("STOP, is broken"); //OR
 if ( appWidth!=0 || appHeight!=0 )println("Display: Good to Go"); //AND
@@ -27,6 +26,7 @@ println(DO, orientation);
 if (orientation == p)  print(instruct); //Later, output to CANVAS
 //
 } //End setup
+//
 void draw () {} //End draw
 //
 void keyPressed () {} //End keyPressed
