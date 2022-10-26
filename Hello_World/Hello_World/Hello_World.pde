@@ -1,7 +1,7 @@
 //Global Variables
 int appWidth, appHeight;
 float centerX, centerY, xStart, yStart, widthRect, heightRect;
-color blackNightLight=#000000; //Hexidecimal
+color blackNightLight=#000000, purple=#C96AD6, purple=, white=#FFFFFF; //Hexidecimal
 float thin, normal, thick;
 //
 void setup() {
@@ -48,9 +48,14 @@ void draw() {
   //Casting Reminder
   background( color( random(0, 255), random(0, 255), random(0, 255) ) ); // Colour without blue
   //
-  background( blackNightMode );
+  //background( blackNightMode );
   strokeWeight( thick );
+  stroke( purple );
+  fill(purple); 
   rect(xStart, yStart, widthRect, heightRect);
+  fill(white); //default reset
+  stroke( blackNightMode ); //default reset
+  strokeWeight(1); //default reset
 } //End draw
 //
 void keyPressed() {
