@@ -5,6 +5,7 @@ void setup() {
 //
 void draw() {
   println("I am nocturnal!");
+  println("");
 }//End draw
 //
 void keyPressed() {
