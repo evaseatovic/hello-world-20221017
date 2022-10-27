@@ -14,6 +14,7 @@ void keyPressed() {
 }//End keyPressed
 //
 void mousePressed() {
+  nightMode=false;
 }//End mousePressed
 //
 //End Main Program
