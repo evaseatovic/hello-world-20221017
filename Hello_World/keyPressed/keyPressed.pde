@@ -11,6 +11,7 @@ void draw() {
 //
 void keyPressed() {
  if ( key == 'N' || key == 'n' ) nightMode=true;
+ if ( key == CODED && keyCode == LEFT ) nightMode=false;
 }//End keyPressed
 //
 void mousePressed() {
