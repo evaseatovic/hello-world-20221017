@@ -10,11 +10,10 @@ void draw() {
 }//End draw
 //
 void keyPressed() {
-  nightMode=true;
+ if ( key == 'N' ) nightMode=true;
 }//End keyPressed
 //
 void mousePressed() {
-  nightMode=false;
 }//End mousePressed
 //
 //End Main Program
