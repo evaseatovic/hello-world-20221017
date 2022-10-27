@@ -4,8 +4,8 @@ void setup() {
 }//End setup
 //
 void draw() {
-  println("I am nocturnal!");
-  println("");
+ if () println("I am nocturnal!");
+ if () println("");
 }//End draw
 //
 void keyPressed() {
