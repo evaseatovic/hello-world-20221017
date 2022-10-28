@@ -69,6 +69,8 @@ void draw() {
   fill( white ); //default reset
   stroke( blackNightMode ); //default reset
   strokeWeight(1); //default reset
+  circle(330, 160, 100);
+  line(330, 90, 330, 330);
 } //End draw
 //
 void keyPressed() {
